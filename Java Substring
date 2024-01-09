@@ -24,6 +24,17 @@ Explanation
 In the diagram below, the substring is highlighted in green:
 
 substring.png
+======================================
+
+Explination
+
+start is 3
+end is 7
+
+so  Helloworld
+    0123456789
+
+start is 3 index position l and end 7 is r but its shoud -1 in length so index postion is 6 so total output is lowo
 
 
 ================================================================================================
