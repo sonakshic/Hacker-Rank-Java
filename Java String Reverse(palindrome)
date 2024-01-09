@@ -1,0 +1,48 @@
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
+
+Given a string , print Yes if it is a palindrome, print No otherwise.
+
+Constraints
+
+ will consist at most  lower case english letters.
+Sample Input
+
+madam
+Sample Output
+
+Yes
+
+===========================
+
+Explnation
+
+palindrome means
+start to count the same word and end to count the same word
+for exampl:madam,
+46355364
+
+===========================================
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        /* Enter your code here. Print output to STDOUT. */
+        
+        String B= new StringBuilder(A).reverse().toString();  Addding belw code
+        if(A.equals(B)){
+             System.out.println("Yes");
+        }
+        
+        else{
+            System.out.println("No");
+        }
+    }
+}
+
+
